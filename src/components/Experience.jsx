@@ -66,7 +66,7 @@ const Experience = () => {
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen flex flex-col justify-center items-center md:items-start p-8"
     >
       <div className="max-w-screen-lg mx-auto w-full text-white text-center md:text-left">
-        <div className="mt-16">
+        <div className="mt-20">
           <p className="text-3xl md:text-4xl font-bold border-b-4 border-gray-500 p-2 inline ">
             Experience
           </p>
