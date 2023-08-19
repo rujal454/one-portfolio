@@ -12,12 +12,10 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+            I'm a FrontEnd Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+          A passionate Computer Science student with a strong interest in web development. Eager to translate my coding skills in to real-world solutions, I've been diving deep into front-end and back-end technologies, crafting user-friendly interfaces and dynamic web applications. Proficient in HTML, CSS, JavaScript, and modern frameworks like React, I'm excited about creating seamless online experiences. I'm on the lookout for an internship opportunity where I can contribute my enthusiasm and learn from industry professionals. Let's connect and explore the possibilities!
           </p>
 
           <div>
