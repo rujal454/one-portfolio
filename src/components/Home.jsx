@@ -15,7 +15,7 @@ const Home = () => {
             I'm a FrontEnd Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          A passionate Computer Science student with a strong interest in web development. Eager to translate my coding skills in to real-world solutions, I've been diving deep into front-end and back-end technologies, crafting user-friendly interfaces and dynamic web applications. Proficient in HTML, CSS, JavaScript, and modern frameworks like React, I'm excited about creating seamless online experiences. I'm on the lookout for an internship opportunity where I can contribute my enthusiasm and learn from industry professionals. Let's connect and explore the possibilities!
+          A passionate Computer Science student with a strong interest in web development. Eager to translate my coding skills in to real-world solutions, I've been diving deep into front-end and back-end technologies, crafting user-friendly interfaces and dynamic web applications. Proficient in HTML, CSS, JavaScript, and modern frameworks like React, I'm excited about creating seamless online experiences.
           </p>
 
           <div>
