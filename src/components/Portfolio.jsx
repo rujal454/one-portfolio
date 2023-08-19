@@ -1,9 +1,10 @@
 import React from "react";
 import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-
+import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
-
+import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
@@ -19,7 +20,18 @@ const Portfolio = () => {
       id: 3,
       src: navbar,
     },
-    
+    {
+      id: 4,
+      src: reactSmooth,
+    },
+    {
+      id: 5,
+      src: installNode,
+    },
+    {
+      id: 6,
+      src: reactWeather,
+    },
   ];
 
   return (
@@ -27,7 +39,7 @@ const Portfolio = () => {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full text-center md:text-left">
+      <div className="mx-w-screen-lg mx-auto w-full text-white text-center md:text-left ">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
@@ -53,11 +65,10 @@ const Portfolio = () => {
               </div>
             </div>
           ))}
-        </div>   
+        </div>
       </div>
     </div>
   );
 };
 
 export default Portfolio;
-
