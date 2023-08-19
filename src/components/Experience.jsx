@@ -40,18 +40,8 @@ const Experience = () => {
       title: "Tailwind",
       style: "shadow-sky-400",
     },
-    {
-      id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
-    },
-    {
-      id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
-    },
+    
+    
     {
       id: 8,
       src: github,
@@ -63,17 +53,17 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen flex flex-col justify-center items-center md:items-start p-8"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen flex flex-col justify-center items-center md:items-start p-8 md:pt-25 "
     >
-      <div className="max-w-screen-lg mx-auto w-full text-white text-center md:text-left pt-10 md:pb-12">
-        <div className=" md:pb-10 pt:10">
+      <div className="max-w-screen-lg mx-auto w-full text-white text-center md:text-left pt-20 mt-15 md:mt-50 ">
+        <div className=" pt-20 mt-10">
           <p className="text-3xl md:text-4xl font-bold border-b-4 border-gray-500 p-2 inline ">
             Experience
           </p>
           <p className="py-4 pb-3">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 pt-15 mb-10">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 pt-18 mb-10">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
