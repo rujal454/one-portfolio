@@ -7,18 +7,18 @@ const Contact = () => {
       className="w-full h- h-fullscreen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col pt-14 max-w-screen-lg mx-auto w-full text-white text-center md:text-left mb-10 ">
-        <div className="pb-20">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500 p-15">
+        <div className="pb-5 md:pt-10 md:mt-7  ">
+          <p className="text-3xl font-bold inline border-b-4 border-gray-500 ">
             Contact
           </p>
-          <p className="py-4">Submit the form below to get in touch with me</p>
+          <p className="py-4 pb-3 ">Submit the form below to get in touch with me</p>
         </div>
 
         <div className=" flex justify-center items-center">
           <form
             action="https://getform.io/f/61c99527-2b15-42cf-9b55-ad37d2f7daa6"
             method="POST"
-            className=" flex flex-col w-full md:w-1/2"
+            className=" flex flex-col w-full md:w-1/2 md:pt-10 md:mt-15"
           >
             <input
               type="text"

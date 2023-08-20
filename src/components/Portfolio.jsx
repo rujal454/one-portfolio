@@ -37,14 +37,14 @@ const Portfolio = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
       <div className="max-w-screen-lg mx-auto w-full text-white p-4 md:text-left">
-        <div className="pb-8 text-center md:text-left">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+        <div className="pt-20 mt-10 text-center md:text-left ">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500 ">
             Portfolio
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6 pb-4 md:pb-6 ">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 pb-15">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 pb-10 mb:mt-20">
           {portfolios.map(({ id, src }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
