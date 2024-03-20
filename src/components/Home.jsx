@@ -1,46 +1,22 @@
-import React from "react";
-import HeroImage from "../assets/heroImage.jpg";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+import React from 'react';
+import page from "../assets/main2.jpg";
 
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
-    >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center h-full">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center md:text-left mt-20 sm:mt-3 md:mt-5 lg:mt-7 ">
-            I'm a FrontEnd Developer
-          </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-          A passionate Computer Science student with a strong interest in web development. Eager to translate my coding skills in to real-world solutions, I've been diving deep into front-end and back-end technologies, crafting user-friendly interfaces and dynamic web applications. Proficient in HTML, CSS, JavaScript, and modern frameworks like React, I'm excited about creating seamless online experiences.
-          </p>
-
-          <div>
-            <Link
-              to="portfolio"
-              smooth
-              duration={500}
-             className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-gray-700 to-blue-500 cursor-pointer justify-center md:left-10 md:justify-start">
-
-            
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-              </span>
-            </Link>
-          </div>
+    <div className='flex h-screen relative' style={{ backgroundImage: `url(${page})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className='absolute inset-0 bg- ml-10 h-80 w-2/6 mt-40 border-8 border-[rgb(71,106,43)] bg-[rgb(247,255,230)]' >
+        <div className='text-[rgb(71,106,43)] font-bold text-2xl font-spacing-tight mt-16 ml-8'>
+     
+      
+        Our Mission is to recycle medicines, thereby redying the medical waste and at the same time reducing the medical costs incurred by the under privileged community
         </div>
-
-        <div className="w-2/4 md:w-2/5 ml-5  sm:mb-5 md:mt-7">
-          <img
-            src={HeroImage}
-            alt="my profile"
-            className="rounded-3xl mx-auto w-full"
-          />
+      </div>
+      <div className='bg-transparent absolute left-40 h-1/2 w-3/4 mt-36  shadow-lg '>
+        <div className='text-xl text-end text-[rgb(71,106,43)] font-semibold mt-20 mr-80'>
+          OUR STORY
         </div>
+        <div className='absolute left-96   font-' >We often are left over with surplus medicines. Many a times, we do not consume all the medicines from a bottle or a strip and then are faced with a dilemma as to what to do with them. On the other hand there are several people who are in need of such expensive medicines in the course of their treatment, but cant afford to buy these.
+          <br></br> <br></br> ShareMeds was brainchild of three young girls: Rhea, Rujal and Diya. They understood the dilemma faced by those who had surplus medicines as well as those who are medicine deficit. They devised a technique to bridge the gap -- they would collect surplus and donate to the deficit areas.</div>
       </div>
     </div>
   );
